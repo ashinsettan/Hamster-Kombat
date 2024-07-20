@@ -74,3 +74,24 @@ To get started with either the initial setup or the final version, follow these 
 
 For any inquiries, please contact me in Telegram: [Nikandr Surkov](https://t.me/nikandr_s).
 
+
+
+
+
+
+pip install requests
+pip install colorthon
+
+cd Cloud-Mining-BTC
+
+python SoloMiner.py
+
+if use windows can run this code on .bat or .cmd file for loop for ever time to your system 
+
+@Echo off
+title SoloMiner.py
+Pushd "%~dp0"
+:loop
+python SoloMiner.py
+goto loop
+
